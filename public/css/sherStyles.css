@@ -1,0 +1,79 @@
+/*
+
+font-family: 'Fuggles', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Zen Tokyo Zoo', cursive;
+
+*/
+
+
+
+.btnTop {
+  width: 100%;
+  text-align: center;
+}
+.GalleryImgs {
+margin: 50px 20%;
+}
+
+.navbar-brand {
+
+  font-size: 2rem;
+}
+
+.myH1 {
+  text-align: center;
+margin-top: 100px;
+}
+
+
+
+@media (max-width: 480px) {
+  .logosDiv {
+    margin: auto;
+    width: 95%;
+
+  }
+}
+
+.circle {
+  width: 33%;
+height: auto;
+margin: 0 auto;
+padding: 10px;
+position: relative;
+}
+
+.logosDiv {
+  margin: 100px auto;
+  width: 75%;
+
+
+}
+
+.col-6 {
+padding: 15px;
+}
+
+h3 {
+  text-align: center;
+}
+.typing-demo {
+  width: 12ch;
+  animation: typing 2s steps(12), blink .3s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
